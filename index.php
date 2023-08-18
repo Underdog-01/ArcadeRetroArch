@@ -7,7 +7,7 @@
  * @license https://web-develop.ca/index.php?page=arcade_license_BSD2 BSD 2
  */
 
-if (!defined('SMF'))
+if (!defined('SMF') || !defined('ARCADE_EmulatorJS'))
 	die('No direct access...');
 
 // Arcade game roms are loaded inside an iframe using srdoc
