@@ -161,7 +161,7 @@ function smf_arcade_iframe_roms()
 							return "n64"
 
 						if (["nds", "gba", "gb", "z64", "n64"].includes(ext2))
-							return ext
+							return ext2
 
 						if (!["7z", "zip"].includes(ext2))
 							location.reload();
